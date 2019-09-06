@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:enabled="@{viewModel.uiState == UiState.CONTENT}"
             android:onClick="@{() -> viewModel.loadImage()}"
-            android:text="Загрузить"
+            android:text="@string/load"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/urlInput" />
