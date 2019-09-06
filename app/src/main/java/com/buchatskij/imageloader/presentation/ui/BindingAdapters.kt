@@ -1,4 +1,4 @@
-package com.buchatskij.imageloader.presentation
+package com.buchatskij.imageloader.presentation.ui
 
 import android.graphics.BitmapFactory
 import android.widget.ImageView
